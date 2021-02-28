@@ -1,0 +1,190 @@
+[
+  {
+    "description": "    As a Diney world customer, I should able to search for Disney parks and tickets",
+    "elements": [
+      {
+        "description": "",
+        "id": "disney-world-parks-and-tickets;the-one-where-alice-can-see-all-the-themeparks",
+        "keyword": "Scenario",
+        "line": 8,
+        "name": "The one where alice can see all the themeparks",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 308000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "alice visits a disney world app",
+            "match": {
+              "location": "tests/features/steps/commonSteps.js:7"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 27802000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 9,
+            "name": "alice navigates to parks and tickets",
+            "match": {
+              "location": "tests/features/steps/commonSteps.js:15"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 68000000
+            }
+          },
+          {
+            "arguments": [
+              {
+                "rows": [
+                  {
+                    "cells": [
+                      "Magic Kingdom"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "Epcot"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "Disney's Hollywood Studios"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "Star Wars: Galaxy's Edge"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "Disney's Animal Kingdom"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "keyword": "Then ",
+            "line": 10,
+            "name": "alice should see the following theme parks",
+            "match": {
+              "location": "tests/features/steps/ParksAndTicketsSteps.js:6"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 47000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 94000000
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "disney-world-parks-and-tickets;the-one-where-alice-can-see-all-the-water-parks",
+        "keyword": "Scenario",
+        "line": 17,
+        "name": "The one where alice can see all the water parks",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 515000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "alice visits a disney world app",
+            "match": {
+              "location": "tests/features/steps/commonSteps.js:7"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 27564000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 18,
+            "name": "alice navigates to parks and tickets",
+            "match": {
+              "location": "tests/features/steps/commonSteps.js:15"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 59000000
+            }
+          },
+          {
+            "arguments": [
+              {
+                "rows": [
+                  {
+                    "cells": [
+                      "Disney's Typhoon Lagoon"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "Disney's Blizzard Beach"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "keyword": "Then ",
+            "line": 19,
+            "name": "alice should see the following water parks",
+            "match": {
+              "location": "tests/features/steps/ParksAndTicketsSteps.js:15"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 13000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 39000000
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "disney-world-parks-and-tickets",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Disney World Parks and Tickets",
+    "tags": [],
+    "uri": "tests/features/ParksAndTickets.feature"
+  }
+]

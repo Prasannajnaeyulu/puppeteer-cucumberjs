@@ -1,0 +1,36 @@
+{
+  "name": "puppeteer-cucumberjs",
+  "version": "1.0.0",
+  "description": "A POC project using puppeteer cucumbejs and Page Object Model for automating E2E tests",
+  "main": "index.js",
+  "scripts": {
+    "test": "QUIET=true cucumber-js ./tests/features/ -f json:tests/report/cucumber_report.json",
+    "test-results-report": "QUIET=true node ./tests/report/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Prasannajnaeyulu/puppeteer-cucumberjs.git"
+  },
+  "keywords": [
+    "puppeteer",
+    "cucumberjs",
+    "PageObjectModel",
+    "chai",
+    "javascript",
+    "e2etests"
+  ],
+  "author": "Prasannanjaneyulu Padavala",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Prasannajnaeyulu/puppeteer-cucumberjs/issues"
+  },
+  "homepage": "https://github.com/Prasannajnaeyulu/puppeteer-cucumberjs#readme",
+  "devDependencies": {
+    "chai": "^4.3.0",
+    "cucumber": "^7.0.0-rc.0",
+    "cucumber-html-reporter": "^5.3.0",
+    "cucumber-pretty": "^6.0.0",
+    "path": "^0.12.7",
+    "puppeteer": "^8.0.0"
+  }
+}
